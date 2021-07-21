@@ -4,7 +4,7 @@ function sleep(ms) {
   async function greeting() {
     for (let i = 0; i < 9999; i++) {
 
-        var random = Math.floor(Math.random() * 10) + 1;
+        var random = Math.floor(Math.random() * 15) + 1;
         if(random == 1){
             console.log("Good morning! Hope you slept well :)");
         }else if(random == 2){
